@@ -159,14 +159,17 @@ class plgContentcloudvideo extends JPlugin
     {
         $params = $this->params;
 
-        $width = $params->get('width', 432);
-        $height = $params->get('height', 243);
+        $width = $params->get('width', 600);
+        $height = $params->get('height', 600);
         $fullscreen = $params->get('fullscreen', 1);
+        $postcard = $params->get('postcard', 1);
+        $audio = $params->get('audio', 1);
 
         #Logic
         if($fullscreen) $fscr=' allowfullscreen'; else $fscr='';
 
-        return '<iframe width="'.$width.'" height="'.$height.'" src="https://'.$url.'/embed/videoseries?list='.$vCode.'" frameborder="0" '.$fscr.'></iframe>';
+        return '<iframe src="https://vine.co/v/51QrnWbpPbj/embed/simple" width="600" height="600" frameborder="0"></iframe><script src="https://platform.vine.co/static/scripts/embed.js"></script>';
+        <iframe src="https://vine.co/v/51QrnWbpPbj/embed/postcard?audio=1" width="600" height="600" frameborder="0"></iframe><script src="https://platform.vine.co/static/scripts/embed.js"></script>
     }
 
     function scVideo($vCode)
@@ -181,8 +184,6 @@ class plgContentcloudvideo extends JPlugin
         $show_user = $params->get('autoplay', 1);
         $show_reposts = $params->get('autoplay', 1);
         $visual = $params->get('autoplay', 1);
-
-        auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true
 
         #Logic
         $scvars='';
