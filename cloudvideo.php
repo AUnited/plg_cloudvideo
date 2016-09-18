@@ -90,7 +90,7 @@ class plgContentcloudvideo extends JPlugin
         #Logic
         if($fullscreen) $fscr=' allowfullscreen'; else $fscr='';
 
-        return '<iframe width="'.$width.'" height="'.$height.'" src="https://'.$url.'/embed/videoseries?list='.$vCode.'" frameborder="0" '.$fscr.'></iframe>';
+        return '<iframe src="https://vk.com/video_ext.php?oid=somevar&id=another&hash=andanother&sd" width="'.$width.'" height="'.$height.'" frameborder="0" '.$fscr.'></iframe>';
     }
 
     function rtVideo($vCode)
@@ -101,7 +101,6 @@ class plgContentcloudvideo extends JPlugin
         $height = $params->get('height', 243);
         $fullscreen = $params->get('fullscreen', 1);
         $startin = 0;
-
 
         #Logic
         if($fullscreen) $fscr=' webkitallowfullscreen mozallowfullscreen allowfullscreen'; else $fscr='';
