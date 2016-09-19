@@ -29,6 +29,90 @@
                     <option value="1">JYes</option>
                 </field>
 			</fieldset>
+			<fieldset name="YouTube">
+				<field name="width" type="text" default="432" label="Width" description="Width of the YouTube video. Default width is 432 pixels." />
+				<field name="height" type="text" default="243" label="Height" description="Height of the YouTube video. Default height is 243 pixels." />
+				<field name="confidence" type="radio" class="btn-group btn-group-yesno" default="0" label="High confidence" description="High confidence mode.">
+					<option value="0">JNo</option>
+					<option value="1">JYes</option>
+				</field>
+				<field name="fullscreen" type="radio" class="btn-group btn-group-yesno" default="1" label="Allow fullscreen" description="Allow fullscreen">
+					<option value="0">JNo</option>
+					<option value="1">JYes</option>
+				</field>
+			</fieldset>
+			<fieldset name="RuTube">
+				<field name="width" type="text" default="432" label="Width" description="Width of the YouTube video. Default width is 432 pixels." />
+				<field name="height" type="text" default="243" label="Height" description="Height of the YouTube video. Default height is 243 pixels." />
+				<field name="confidence" type="radio" class="btn-group btn-group-yesno" default="0" label="High confidence" description="High confidence mode.">
+					<option value="0">JNo</option>
+					<option value="1">JYes</option>
+				</field>
+				<field name="fullscreen" type="radio" class="btn-group btn-group-yesno" default="1" label="Allow fullscreen" description="Allow fullscreen">
+					<option value="0">JNo</option>
+					<option value="1">JYes</option>
+				</field>
+			</fieldset>
+			<fieldset name="Vimeo">
+				<field name="width" type="text" default="432" label="Width" description="Width of the YouTube video. Default width is 432 pixels." />
+				<field name="height" type="text" default="243" label="Height" description="Height of the YouTube video. Default height is 243 pixels." />
+				<field name="confidence" type="radio" class="btn-group btn-group-yesno" default="0" label="High confidence" description="High confidence mode.">
+					<option value="0">JNo</option>
+					<option value="1">JYes</option>
+				</field>
+				<field name="fullscreen" type="radio" class="btn-group btn-group-yesno" default="1" label="Allow fullscreen" description="Allow fullscreen">
+					<option value="0">JNo</option>
+					<option value="1">JYes</option>
+				</field>
+			</fieldset>
+			<fieldset name="Daylymotion">
+				<field name="width" type="text" default="432" label="Width" description="Width of the YouTube video. Default width is 432 pixels." />
+				<field name="height" type="text" default="243" label="Height" description="Height of the YouTube video. Default height is 243 pixels." />
+				<field name="confidence" type="radio" class="btn-group btn-group-yesno" default="0" label="High confidence" description="High confidence mode.">
+					<option value="0">JNo</option>
+					<option value="1">JYes</option>
+				</field>
+				<field name="fullscreen" type="radio" class="btn-group btn-group-yesno" default="1" label="Allow fullscreen" description="Allow fullscreen">
+					<option value="0">JNo</option>
+					<option value="1">JYes</option>
+				</field>
+			</fieldset>
+            <fieldset name="Flickr">
+                <field name="width" type="text" default="432" label="Width" description="Width of the YouTube video. Default width is 432 pixels." />
+                <field name="height" type="text" default="243" label="Height" description="Height of the YouTube video. Default height is 243 pixels." />
+                <field name="confidence" type="radio" class="btn-group btn-group-yesno" default="0" label="High confidence" description="High confidence mode.">
+                    <option value="0">JNo</option>
+                    <option value="1">JYes</option>
+                </field>
+                <field name="fullscreen" type="radio" class="btn-group btn-group-yesno" default="1" label="Allow fullscreen" description="Allow fullscreen">
+                    <option value="0">JNo</option>
+                    <option value="1">JYes</option>
+                </field>
+            </fieldset>
+            <fieldset name="Vine">
+                <field name="width" type="text" default="432" label="Width" description="Width of the YouTube video. Default width is 432 pixels." />
+                <field name="height" type="text" default="243" label="Height" description="Height of the YouTube video. Default height is 243 pixels." />
+                <field name="confidence" type="radio" class="btn-group btn-group-yesno" default="0" label="High confidence" description="High confidence mode.">
+                    <option value="0">JNo</option>
+                    <option value="1">JYes</option>
+                </field>
+                <field name="fullscreen" type="radio" class="btn-group btn-group-yesno" default="1" label="Allow fullscreen" description="Allow fullscreen">
+                    <option value="0">JNo</option>
+                    <option value="1">JYes</option>
+                </field>
+            </fieldset>
+            <fieldset name="Soundcloud">
+                <field name="width" type="text" default="432" label="Width" description="Width of the YouTube video. Default width is 432 pixels." />
+                <field name="height" type="text" default="243" label="Height" description="Height of the YouTube video. Default height is 243 pixels." />
+                <field name="confidence" type="radio" class="btn-group btn-group-yesno" default="0" label="High confidence" description="High confidence mode.">
+                    <option value="0">JNo</option>
+                    <option value="1">JYes</option>
+                </field>
+                <field name="fullscreen" type="radio" class="btn-group btn-group-yesno" default="1" label="Allow fullscreen" description="Allow fullscreen">
+                    <option value="0">JNo</option>
+                    <option value="1">JYes</option>
+                </field>
+            </fieldset>
 		</fields>
 	</config>
 </extension>
