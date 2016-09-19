@@ -19,13 +19,13 @@ class plgContentcloudvideo extends JPlugin
 		{
 		global $mainframe;
 
-        $supported = array('youtube, youpl, vk, rutube, vimeo, dailymotion, flickr, vine, soundcloud');
+        $supported = array('youtube, youpl, rutube, vimeo, dailymotion, flickr, vine, soundcloud');
 
         $func = array
         (
             'youtube' => function ($match){return $this->ytVideo($match[1]);},
             'youpl' => function ($match){return $this->yplVideo($match[1]);},
-            'vk' => function ($match){return $this->vkVideo($match[1]);},
+            //'vk' => function ($match){return $this->vkVideo($match[1]);},
             'rutube' => function ($match){return $this->rtVideo($match[1]);},
             'vimeo' => function ($match){return $this->vimeoVideo($match[1]);},
             'dailymotion' => function ($match){return $this->dmVideo($match[1]);},
@@ -86,6 +86,9 @@ class plgContentcloudvideo extends JPlugin
         $width = $params->get('width', 432);
         $height = $params->get('height', 243);
         $fullscreen = $params->get('fullscreen', 1);
+        #Parser Start
+
+        #Parser End
 
         #Logic
         if($fullscreen) $fscr=' allowfullscreen'; else $fscr='';
