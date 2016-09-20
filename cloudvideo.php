@@ -147,7 +147,7 @@ class plgContentcloudvideo extends JPlugin
         $height = $params->get('height', 243);
         $flheader = $params->get('flheader', 0);
         $flfooter = $params->get('flfooter', 0);
-        $flcontext = $params->get('flfooter', 0);
+        $flcontext = $params->get('flcontext', 0);
 
         #Logic
         $flvars='';
